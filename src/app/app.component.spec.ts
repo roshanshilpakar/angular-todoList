@@ -23,7 +23,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-crash-todolist'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-crash-todolist');
+    expect(app.name).toEqual('angular-crash-todolist');
   });
 
   it('should render title', () => {
